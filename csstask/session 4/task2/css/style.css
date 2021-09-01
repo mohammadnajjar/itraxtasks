@@ -1,0 +1,95 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 80%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ml {
+  margin-left: 10%;
+}
+
+.clear {
+  clear: both;
+}
+
+.clients {
+  background-color: #f9f9f9;
+  overflow: hidden;
+}
+
+.clients .container .section-heading {
+  color: #39b54a;
+  text-align: center;
+}
+
+.clients .container .big-heading {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.clients .container .big-heading::after {
+  content: "";
+  width: 40%;
+  height: 1px;
+  background-color: #0000001a;
+  position: absolute;
+  top: 122%;
+  left: 30%;
+}
+
+.clients .container .items {
+  margin: 60px 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.clients .container .items .item {
+  padding: 30px 10px;
+  float: left;
+  width: 45%;
+  background-color: #fff;
+}
+
+.clients .container .items .item .icon {
+  float: left;
+  color: #39b54a;
+  font-size: 75px;
+  margin-left: 30px;
+  margin-top: 0%;
+}
+
+.clients .container .items .item .info {
+  margin-left: 7.8rem;
+}
+
+.clients .container .items .item .info h3 {
+  font-size: 30px;
+  margin-top: 3px;
+}
+
+.clients .container .items .item .info p {
+  color: #757575;
+  font-size: 17px;
+  line-height: 30px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,62 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 80%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clients {
+  background-color: #f9f9f9;
+  height: 95vh;
+  text-align: center;
+}
+
+.clients .container .section-heading {
+  text-transform: uppercase;
+  font-size: 25px;
+  letter-spacing: 4px;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.clients .container .section-heading::after {
+  content: "";
+  width: 100px;
+  height: 3px;
+  background-color: #000;
+  position: absolute;
+  top: 40px;
+  left: 45%;
+}
+
+.clients .container .items {
+  margin-top: 60px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.clients .container .items .row .item {
+  padding: 5px;
+  float: left;
+  width: 16.66%;
+  height: 180px;
+  line-height: 11;
+  border: 1px solid #ebebeb;
+  background-color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,112 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 80%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ml {
+  margin-left: 10%;
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  overflow: hidden;
+  height: 100vh;
+  background: url(../images/banner-bg.jpg) center;
+  background-size: cover;
+  position: relative;
+}
+
+header::after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgba(132, 96, 246, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+header .nav {
+  z-index: 99;
+  padding: 15px;
+  overflow: hidden;
+  position: absolute;
+  width: 75%;
+}
+
+header .nav .logo {
+  float: left;
+  margin-right: 87%;
+}
+
+header .nav .menu-bar i {
+  font-size: 25px;
+  color: #fff;
+  cursor: pointer;
+}
+
+header .content {
+  z-index: 99;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+header .content h1 {
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+header .content p {
+  margin-bottom: 60px;
+  font-size: 16px;
+}
+
+header .content a {
+  padding: 10px 30px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+header .content a:hover i {
+  margin-left: 20px;
+}
+
+header .content a i {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */

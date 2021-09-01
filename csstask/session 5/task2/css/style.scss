@@ -1,0 +1,132 @@
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 80%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clear {
+  clear: both;
+}
+.clients {
+  background: url(../images/contact-bg.jpg.webp);
+  overflow: hidden;
+  position: relative;
+  .container {
+    .section-heading {
+      color: #39b54a;
+      text-align: center;
+    }
+    .big-heading {
+      text-align: center;
+      font-size: 52px;
+      padding: 10px 44px;
+      margin-top: 0px;
+      margin-bottom: 25px;
+      position: relative;
+      color: #fff;
+    }
+    .items {
+      margin: 60px 0;
+      background-color: #000;
+      overflow: hidden;
+      .item {
+        padding: 30px 10px;
+        float: left;
+        &:first-of-type {
+          width: 70%;
+          padding: 0;
+        }
+        &:last-of-type {
+          width: 250px;
+        }
+        .contact-info {
+          margin-left: 12%;
+          h3 {
+            color: #fff;
+            margin-bottom: 50px;
+            font-size: 18px;
+          }
+          .info {
+            h5 {
+              color: #39b54a;
+              font-size: 16px;
+              margin-top: 3px;
+            }
+            p {
+              color: #ffffff66;
+              margin-bottom: 15px;
+              line-height: 30px;
+            }
+          }
+          .socal {
+            margin: 40px 0;
+            overflow: hidden;
+            a {
+              .icon {
+                float: left;
+                color: #fff;
+                margin-top: 0;
+                font-size: 18px;
+                margin-right: 10px;
+                &:hover {
+                  color: #39b54a;
+                }
+              }
+              .active {
+                color: #39b54a;
+              }
+            }
+          }
+        }
+        form {
+          background-color: #121212;
+          padding: 30px 50px;
+          h3 {
+            color: #fff;
+            margin-bottom: 50px;
+            font-size: 14px;
+            letter-spacing: 1.2px;
+          }
+          input,
+          textarea {
+            width: 100%;
+            border: 0;
+            background: transparent;
+            outline: 0;
+            border-bottom: 1px solid #333;
+            padding: 15px 0;
+            margin-bottom: 30px;
+            &:focus {
+              border-bottom: 1px solid #39b54a;
+            }
+            &::placeholder {
+              color: rgba(255, 255, 255, 0.6);
+              font-size: 14px;
+            }
+          }
+          button {
+            width: 100%;
+            padding: 14px;
+            background: #39b54a;
+            color: #fff;
+            font-size: 20px;
+            letter-spacing: 2px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,172 @@
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 80%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.clients {
+  background: url(../images/contact-bg.jpg.webp);
+  overflow: hidden;
+  position: relative;
+}
+
+.clients .container .section-heading {
+  color: #39b54a;
+  text-align: center;
+}
+
+.clients .container .big-heading {
+  text-align: center;
+  font-size: 52px;
+  padding: 10px 44px;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  position: relative;
+  color: #fff;
+}
+
+.clients .container .items {
+  margin: 60px 0;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.clients .container .items .item {
+  padding: 30px 10px;
+  float: left;
+}
+
+.clients .container .items .item:first-of-type {
+  width: 70%;
+  padding: 0;
+}
+
+.clients .container .items .item:last-of-type {
+  width: 250px;
+}
+
+.clients .container .items .item .contact-info {
+  margin-left: 12%;
+}
+
+.clients .container .items .item .contact-info h3 {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.clients .container .items .item .contact-info .info h5 {
+  color: #39b54a;
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+.clients .container .items .item .contact-info .info p {
+  color: #ffffff66;
+  margin-bottom: 15px;
+  line-height: 30px;
+}
+
+.clients .container .items .item .contact-info .socal {
+  margin: 40px 0;
+  overflow: hidden;
+}
+
+.clients .container .items .item .contact-info .socal a .icon {
+  float: left;
+  color: #fff;
+  margin-top: 0;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.clients .container .items .item .contact-info .socal a .icon:hover {
+  color: #39b54a;
+}
+
+.clients .container .items .item .contact-info .socal a .active {
+  color: #39b54a;
+}
+
+.clients .container .items .item form {
+  background-color: #121212;
+  padding: 30px 50px;
+}
+
+.clients .container .items .item form h3 {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+}
+
+.clients .container .items .item form input,
+.clients .container .items .item form textarea {
+  width: 100%;
+  border: 0;
+  background: transparent;
+  outline: 0;
+  border-bottom: 1px solid #333;
+  padding: 15px 0;
+  margin-bottom: 30px;
+}
+
+.clients .container .items .item form input:focus,
+.clients .container .items .item form textarea:focus {
+  border-bottom: 1px solid #39b54a;
+}
+
+.clients .container .items .item form input::-webkit-input-placeholder,
+.clients .container .items .item form textarea::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.clients .container .items .item form input:-ms-input-placeholder,
+.clients .container .items .item form textarea:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.clients .container .items .item form input::-ms-input-placeholder,
+.clients .container .items .item form textarea::-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.clients .container .items .item form input::placeholder,
+.clients .container .items .item form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+}
+
+.clients .container .items .item form button {
+  width: 100%;
+  padding: 14px;
+  background: #39b54a;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
