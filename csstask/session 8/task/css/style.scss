@@ -1,0 +1,39 @@
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  width: 80%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ml {
+  margin-left: 10%;
+}
+.clear {
+  clear: both;
+}
+.imgo {
+  display: block;
+  margin: 50px auto;
+  overflow: hidden;
+  width: 250px;
+  border-radius: 10px;
+  img {
+    width: 100%;
+    transition: all 0.4s linear;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
